@@ -1,10 +1,125 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Pinto Xavier AI</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-  <h2>Pinto Xavier AI</h2>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pinto Xavier — Applied AI and Agentic AI Developer." />
+    <title>Pinto Xavier — Applied AI Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Pinto Xavier home">
+          <span class="brand-mark">PX</span>
+          <span>pinto<span class="accent">.</span>ai</span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="print-button" type="button" data-print>
+          <span class="button-icon">↗</span> Print resume
+        </button>
+        <button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false" data-menu>☰</button>
+      </header>
+
+      <main id="top">
+        <section class="hero page-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="pulse"></span> Available for AI engineering roles</p>
+            <h1>Engineering the<br /><em>next useful</em> AI system.</h1>
+            <p class="hero-summary" data-summary></p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+              <a class="button button-quiet" href="#about">Read profile <span>↗</span></a>
+            </div>
+          </div>
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit-core"><span>AI</span><small>BUILD<br />WITH<br />INTENT</small></div>
+            <span class="orbit-label label-one">LLM apps</span>
+            <span class="orbit-label label-two">RAG</span>
+            <span class="orbit-label label-three">Agents</span>
+          </div>
+        </section>
+
+        <section class="signal-strip page-grid" aria-label="Career highlights">
+          <div class="signal"><strong>13<span>+</span></strong><span>years in<br />software engineering</span></div>
+          <div class="signal"><strong>JS</strong><span>full-stack<br />foundation</span></div>
+          <div class="signal"><strong>AI</strong><span>applied, agentic<br />&amp; grounded</span></div>
+          <div class="signal signal-note"><span class="quote-mark">“</span><p>AI is the next evolution of a strong engineering career — not a restart.</p></div>
+        </section>
+
+        <section class="content-section page-grid" id="about">
+          <div class="section-intro">
+            <p class="section-number">01 / PROFILE</p>
+            <h2>Built on engineering.<br /><span>Focused on impact.</span></h2>
+          </div>
+          <div class="section-body about-body">
+            <p class="lead" data-primary-summary></p>
+            <p data-ai-summary></p>
+            <div class="career-path" data-career-path></div>
+          </div>
+        </section>
+
+        <section class="content-section capabilities-section" id="capabilities">
+          <div class="page-grid">
+            <div class="section-intro">
+              <p class="section-number">02 / CAPABILITIES</p>
+              <h2>From prompt<br />to <span>production.</span></h2>
+              <p class="section-aside">Practical AI systems, built with the discipline of a software engineer.</p>
+            </div>
+            <div class="capability-grid" data-capabilities></div>
+          </div>
+        </section>
+
+        <section class="content-section page-grid" id="projects">
+          <div class="section-intro">
+            <p class="section-number">03 / SELECTED WORK</p>
+            <h2>Systems in<br /><span>the making.</span></h2>
+          </div>
+          <div class="project-list" data-projects></div>
+        </section>
+
+        <section class="content-section learning-section page-grid">
+          <div class="section-intro">
+            <p class="section-number">04 / CONTINUOUSLY LEARNING</p>
+            <h2>Always<br /><span>in progress.</span></h2>
+          </div>
+          <div class="learning-body">
+            <p class="lead">The field moves quickly. My practice stays grounded in experimentation, evaluation, and shipping useful things.</p>
+            <div class="learning-columns">
+              <div><p class="mini-label">Currently exploring</p><div class="tag-list" data-learning-current></div></div>
+              <div><p class="mini-label">On the horizon</p><div class="tag-list muted-tags" data-learning-future></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section page-grid" id="contact">
+          <div>
+            <p class="section-number">05 / NEXT STEP</p>
+            <h2>Have a hard problem<br /><em>worth solving?</em></h2>
+          </div>
+          <div class="contact-card">
+            <p>I'm interested in building AI products that are useful, understandable, and ready for the real world.</p>
+            <span class="contact-note">Contact details coming soon</span>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer page-grid">
+        <span>© <span data-year></span> Pinto Xavier</span>
+        <span>Applied AI &amp; Agentic AI Developer</span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>

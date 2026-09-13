@@ -1,0 +1,27 @@
+{
+  "candidate": {
+    "name": "Pinto Xavier",
+    "headline": "Applied AI & Agentic AI Developer",
+    "secondaryHeadline": "Full-Stack Software Engineer | JavaScript | Node.js | AI Applications"
+  },
+  "summary": {
+    "primary": "Software engineer with 13+ years of experience building web applications and full-stack software, with a strong foundation in JavaScript, frontend engineering, Node.js, APIs and application architecture. Currently focused on Applied AI and Agentic AI engineering, combining established software-engineering experience with modern AI application development.",
+    "aiFocused": "Full-stack software engineer transitioning into Applied AI and Agentic AI development, focused on building practical AI systems using LLMs, retrieval, tool calling, structured outputs, APIs and multi-step workflows."
+  },
+  "transition": ["Frontend Engineering", "JavaScript Development", "Node.js", "Full-Stack Engineering", "API Engineering", "AI Application Development", "Applied AI", "Agentic AI"],
+  "capabilities": [
+    { "area": "LLM Applications", "description": "Integrating large language models into real software applications.", "skills": ["LLM API Integration", "Prompt and Instruction Design", "Context Management", "Structured Outputs", "Output Validation"] },
+    { "area": "RAG", "description": "Building applications that retrieve relevant information before generating responses.", "skills": ["Document Processing", "Chunking", "Embeddings", "Vector Search", "Grounded Generation"] },
+    { "area": "Agentic AI", "description": "Developing AI systems capable of executing multi-step tasks using defined tools and application capabilities.", "skills": ["Tool Calling", "API-Connected Agents", "Agent State", "Planning", "Human Approval"] },
+    { "area": "AI Software Engineering", "description": "Applying conventional software-engineering principles to AI systems.", "skills": ["Modular Architecture", "API Design", "Testing", "Observability", "Maintainability"] }
+  ],
+  "projects": [
+    { "name": "AI-Powered Application", "type": "Applied AI", "status": "Developing", "description": "AI-powered application combining a web interface, backend services and LLM capabilities.", "features": ["LLM integration", "Structured AI responses", "Backend API integration", "AI-assisted workflow"] },
+    { "name": "Agentic AI Workflow", "type": "Agentic AI", "status": "Developing", "description": "A multi-step AI workflow in which an AI system can understand a task, retrieve information, select tools, execute actions and produce a structured result.", "features": ["Understand task", "Retrieve information", "Select appropriate tool", "Process result", "Request human approval"] },
+    { "name": "RAG Knowledge Application", "type": "Applied AI / RAG", "status": "Developing", "description": "Knowledge-based AI application that retrieves relevant information from controlled sources before generating an answer.", "features": ["Document ingestion", "Text processing", "Vector retrieval", "Context construction", "Grounded responses"] }
+  ],
+  "learning": {
+    "current": ["Applied AI Engineering", "Agentic AI", "Generative AI", "LLM Application Development", "RAG", "AI Agents", "Tool Calling", "AI Evaluation"],
+    "future": ["Advanced Agent Orchestration", "AI Observability", "AI Security", "Production AI Systems", "Model Evaluation", "AI Infrastructure"]
+  }
+}
